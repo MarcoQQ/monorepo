@@ -1,6 +1,6 @@
 {
   "name": "@marcosyw/ui",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "> TODO: description",
   "author": "marcosun",
   "homepage": "",
@@ -23,7 +23,7 @@
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
-    "@marcosyw/utility": "^0.0.5",
+    "@marcosyw/utility": "^0.0.6",
     "antd": "^5.27.3"
   },
   "gitHead": "ba46d86d1c60e31f7cbbd85d6a7ae78afb0bac61"
