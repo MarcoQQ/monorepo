@@ -4,7 +4,7 @@
   "description": "> TODO: description",
   "author": "marcosun",
   "homepage": "",
-  "license": "ISC",
+  "license": "MIT",
   "main": "lib/component.js",
   "directories": {
     "lib": "lib",
@@ -14,7 +14,8 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
   },
   "scripts": {
     "test": "node ./__tests__/component.test.js",
@@ -24,5 +25,6 @@
     "@syw/ui": "^0.0.1",
     "@syw/utility": "^0.0.1",
     "antd": "4"
-  }
+  },
+  "gitHead": "20f2ddba8bf427dfd9a04c727ba9b05888e272fd"
 }

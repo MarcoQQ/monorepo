@@ -1,0 +1,9 @@
+17 error Error: Command failed with exit code 1: git remote update
+17 error fatal: unable to access 'https://github.com/MarcoQQ/monorepo.git/': Recv failure: Connection reset by peer
+17 error     at makeError (/Users/marcosun/Desktop/workspace/monorepo/lerna_test/node_modules/execa/lib/error.js:59:11)
+17 error     at Function.module.exports.sync (/Users/marcosun/Desktop/workspace/monorepo/lerna_test/node_modules/execa/index.js:186:17)
+17 error     at Object.execSync (/Users/marcosun/Desktop/workspace/monorepo/lerna_test/node_modules/lerna/dist/index.js:1758:31)
+17 error     at updateRemote (/Users/marcosun/Desktop/workspace/monorepo/lerna_test/node_modules/lerna/dist/index.js:9383:18)
+17 error     at isBehindUpstream (/Users/marcosun/Desktop/workspace/monorepo/lerna_test/node_modules/lerna/dist/index.js:9373:3)
+17 error     at VersionCommand.initialize (/Users/marcosun/Desktop/workspace/monorepo/lerna_test/node_modules/lerna/dist/index.js:9667:57)
+17 error     at VersionCommand.runCommand (/Users/marcosun/Desktop/workspace/monorepo/lerna_test/node_modules/lerna/dist/index.js:3478:36)
