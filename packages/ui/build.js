@@ -1,1 +1,1 @@
-console.log('build ui1')
+console.log('build ui minor')
