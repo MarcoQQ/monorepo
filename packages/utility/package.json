@@ -19,7 +19,8 @@
   },
   "scripts": {
     "test": "node ./__tests__/utility.test.js",
-    "build": ""
+    "build": "node ./build.js",
+    "prepublishOnly": "npm run build"
   },
   "dependencies": {
     "lodash": "^4.17.21"
