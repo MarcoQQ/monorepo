@@ -22,7 +22,7 @@
     "build": ""
   },
   "dependencies": {
-    "@syw/utility": "^0.0.3",
+    "@marcosyw/utility": "^0.0.5",
     "antd": "^5.27.3"
   },
   "gitHead": "ba46d86d1c60e31f7cbbd85d6a7ae78afb0bac61"

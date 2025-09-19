@@ -22,8 +22,8 @@
     "build": ""
   },
   "dependencies": {
-    "@syw/ui": "^0.0.3",
-    "@syw/utility": "^0.0.3",
+    "@marcosyw/ui": "^0.0.4",
+    "@marcosyw/utility": "^0.0.5",
     "antd": "4"
   },
   "gitHead": "ba46d86d1c60e31f7cbbd85d6a7ae78afb0bac61"
