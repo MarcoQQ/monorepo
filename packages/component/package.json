@@ -21,8 +21,8 @@
     "build": ""
   },
   "dependencies": {
-    "antd": "4",
     "@syw/ui": "^0.0.1",
-    "@syw/utility": "^0.0.1"
+    "@syw/utility": "^0.0.1",
+    "antd": "4"
   }
 }

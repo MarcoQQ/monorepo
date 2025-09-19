@@ -21,7 +21,7 @@
     "build": ""
   },
   "dependencies": {
-    "antd": "^5.27.3",
-    "@syw/utility": "^0.0.1"
+    "@syw/utility": "^0.0.1",
+    "antd": "^5.27.3"
   }
 }
