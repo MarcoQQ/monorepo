@@ -1,6 +1,6 @@
 {
   "name": "@syw/component",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "> TODO: description",
   "author": "marcosun",
   "homepage": "",
@@ -22,8 +22,8 @@
     "build": ""
   },
   "dependencies": {
-    "@syw/ui": "^0.0.1",
-    "@syw/utility": "^0.0.1",
+    "@syw/ui": "^0.0.2",
+    "@syw/utility": "^0.0.2",
     "antd": "4"
   },
   "gitHead": "20f2ddba8bf427dfd9a04c727ba9b05888e272fd"
