@@ -1,6 +1,6 @@
 {
   "name": "@marcosyw/component",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "> TODO: description",
   "author": "marcosun",
   "homepage": "",
@@ -22,7 +22,7 @@
     "build": ""
   },
   "dependencies": {
-    "@marcosyw/ui": "^0.0.4",
+    "@marcosyw/ui": "^0.0.5",
     "@marcosyw/utility": "^0.0.5",
     "antd": "4"
   },
