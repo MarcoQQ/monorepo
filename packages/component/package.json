@@ -1,5 +1,5 @@
 {
-  "name": "@syw/component",
+  "name": "@marcosyw/component",
   "version": "0.0.3",
   "description": "> TODO: description",
   "author": "marcosun",
@@ -26,5 +26,5 @@
     "@syw/utility": "^0.0.3",
     "antd": "4"
   },
-  "gitHead": "960520b5f856f727cff3df61ed93e2bd391cc282"
+  "gitHead": "ba46d86d1c60e31f7cbbd85d6a7ae78afb0bac61"
 }
