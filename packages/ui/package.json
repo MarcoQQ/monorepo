@@ -1,0 +1,41 @@
+{
+  "name": "@marcosyw/ui",
+  "version": "0.1.0",
+  "description": "> TODO: description",
+  "author": "marcosun",
+  "homepage": "",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "module": "lib/index.mjs",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "scripts": {
+    "test": "node ./__tests__/ui.test.js",
+    "build": "tsup",
+    "prepublishOnly": "npm run build",
+    "dev": "tsup --watch"
+  },
+  "dependencies": {
+    "@marcosyw/utility": "^0.0.6",
+    "antd": "^5.27.3",
+    "lodash": "^4.17.21"
+  },
+  "peerDependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "gitHead": "ba46d86d1c60e31f7cbbd85d6a7ae78afb0bac61",
+  "devDependencies": {
+    "tsup": "8.3.5",
+    "typescript": "5.7.2"
+  }
+}

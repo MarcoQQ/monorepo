@@ -1,0 +1,29 @@
+{
+  "name": "@marcosyw/utility",
+  "version": "0.0.6",
+  "description": "> TODO: description",
+  "author": "marcosun",
+  "homepage": "",
+  "license": "MIT",
+  "main": "lib/utility.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "scripts": {
+    "test": "node ./__tests__/utility.test.js",
+    "build": "node ./build.js",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "gitHead": "ba46d86d1c60e31f7cbbd85d6a7ae78afb0bac61"
+}

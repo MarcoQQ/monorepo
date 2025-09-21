@@ -1,0 +1,31 @@
+{
+  "name": "@marcosyw/component",
+  "version": "0.2.0",
+  "description": "> TODO: description",
+  "author": "marcosun",
+  "homepage": "",
+  "license": "MIT",
+  "main": "lib/component.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "scripts": {
+    "test": "node ./__tests__/component.test.js",
+    "build": "node ./build.js",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "@marcosyw/ui": "^0.1.0",
+    "@marcosyw/utility": "^0.0.6",
+    "antd": "4"
+  },
+  "gitHead": "ba46d86d1c60e31f7cbbd85d6a7ae78afb0bac61"
+}
