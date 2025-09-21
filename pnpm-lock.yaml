@@ -87,6 +87,9 @@ importers:
 
   packages/component:
     dependencies:
+      '@marcosyw/icon':
+        specifier: workspace:*
+        version: link:../icon
       '@marcosyw/ui':
         specifier: ^0.1.1
         version: link:../ui
@@ -96,6 +99,8 @@ importers:
       antd:
         specifier: '4'
         version: 4.24.16(react-dom@19.1.1)(react@19.1.1)
+
+  packages/icon: {}
 
   packages/ui:
     dependencies:

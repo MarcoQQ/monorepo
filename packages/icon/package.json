@@ -1,0 +1,23 @@
+{
+  "name": "@marcosyw/icon",
+  "version": "0.0.1",
+  "description": "> TODO: description",
+  "author": "marcosun",
+  "homepage": "",
+  "license": "MIT",
+  "main": "lib/icon.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "scripts": {
+    "build": "node ./build.js && sleep 10",
+    "prepublishOnly": "nx build @marcosyw/icon"
+  }
+}
