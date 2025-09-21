@@ -1,6 +1,6 @@
 {
   "name": "@marcosyw/component",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "> TODO: description",
   "author": "marcosun",
   "homepage": "",
@@ -23,9 +23,9 @@
     "prepublishOnly": "nx build @marcosyw/component"
   },
   "dependencies": {
-    "@marcosyw/ui": "^0.1.1",
-    "@marcosyw/utility": "^0.0.7",
     "@marcosyw/icon": "workspace:*",
+    "@marcosyw/ui": "^0.1.2",
+    "@marcosyw/utility": "^0.0.8",
     "antd": "4"
   },
   "gitHead": "ba46d86d1c60e31f7cbbd85d6a7ae78afb0bac61"

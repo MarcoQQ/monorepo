@@ -1,6 +1,6 @@
 {
   "name": "@marcosyw/ui",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "> TODO: description",
   "author": "marcosun",
   "homepage": "",
@@ -25,7 +25,7 @@
     "dev": "tsup --watch"
   },
   "dependencies": {
-    "@marcosyw/utility": "^0.0.7",
+    "@marcosyw/utility": "^0.0.8",
     "antd": "^5.27.3",
     "lodash": "^4.17.21"
   },

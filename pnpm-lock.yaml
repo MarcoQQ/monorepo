@@ -91,10 +91,10 @@ importers:
         specifier: workspace:*
         version: link:../icon
       '@marcosyw/ui':
-        specifier: ^0.1.1
+        specifier: ^0.1.2
         version: link:../ui
       '@marcosyw/utility':
-        specifier: ^0.0.7
+        specifier: ^0.0.8
         version: link:../utility
       antd:
         specifier: '4'
@@ -105,7 +105,7 @@ importers:
   packages/ui:
     dependencies:
       '@marcosyw/utility':
-        specifier: ^0.0.7
+        specifier: ^0.0.8
         version: link:../utility
       antd:
         specifier: ^5.27.3
