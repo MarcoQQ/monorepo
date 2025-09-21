@@ -1,7 +1,7 @@
 {
   "name": "dashboard",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "nx serve",
@@ -10,9 +10,9 @@
     "preview": "nx vite:preview"
   },
   "dependencies": {
+    "@marcosyw/ui": "workspace:*",
     "react": "^19.1.1",
-    "react-dom": "^19.1.1",
-    "@marcosyw/ui": "workspace:*"
+    "react-dom": "^19.1.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.35.0",
