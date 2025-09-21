@@ -20,7 +20,7 @@
   },
   "scripts": {
     "test": "node ./__tests__/ui.test.js",
-    "build": "tsup",
+    "build": "tsup && sleep 10",
     "prepublishOnly": "npm run build",
     "dev": "tsup --watch"
   },
